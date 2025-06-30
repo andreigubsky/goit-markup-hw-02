@@ -1,11 +1,4 @@
 /*
-Які шрифти використовуються?
-Знайди потрібні шрифти на сайті Google Fonts та сформуй посилання. Підказка: обидва шрифта потрібно підключати одним посиланням. Додай посилання у html-файли.
-
-Які кольори використовуються у макеті?
-Із цим допоможе Style Guide.
-
-
 
 Порядок додавання стилів:
 
@@ -49,8 +42,20 @@ a {
 }
 
 .top-menu-items {
+    color:#2E2F42;
     font-weight: 500;
 }
+.top-menu-items a:hover, .top-menu-items a:active {
+    color: #404BBF;
+} 
+
+.menu-contacts a{
+    color: #434455;
+}
+.menu-contacts a:hover, .menu-contacts a:active {
+    color: #404BBF;
+} 
+
 
 .main-page {
     background-color: #2E2F42;
@@ -66,4 +71,25 @@ a {
 .main-page button {
     font-weight: 500;
     background-color: #4D5AE5;
+}
+
+.main-page button:hover, .main-page button:active {
+    background-color: #404BBF;
+    cursor: pointer;
+}
+
+.our-team {
+    background-color: #F4F4FD;
+}
+
+.our-portfolio{
+    color:#434455;
+}
+.our-portfolio h3{
+    font-weight: 500;
+    line-height: 1.2;
+}
+footer{
+    background-color: #2E2F42;
+    color: #F4F4FD;
 }
