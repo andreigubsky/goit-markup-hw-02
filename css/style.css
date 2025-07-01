@@ -26,9 +26,10 @@ a {
 
 /* Header */
 .logo {
+    font-size: 18px;
     font-weight: 700;
-    text-transform: uppercase;
     line-height: 1.166;
+    text-transform: uppercase;
 }
 
 .logo span {
@@ -36,7 +37,6 @@ a {
 }
 
 .top-menu-items {
-    color:#2E2F42;
     font-weight: 500;
 }
 .top-menu-items a:hover, .top-menu-items a:focus {
@@ -56,14 +56,16 @@ Section main-page
 */
 
 .main-page {
-    background-color: #2E2F42;
     text-align: center;
+    background-color: #2E2F42;
+    
 }
 
 .main-page h1 {
+    font-size: 56px;
     font-weight: 700;
-    color: #fff;
     line-height: 1.111;
+    color: #fff;
 }
 
 .main-page .main-button {
@@ -78,25 +80,46 @@ Section main-page
 
 /* 
 Main ->
+Section our-benefits
+*/
+
+.our-benefits h2 {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: center;
+}
+.our-benefits h3 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.our-benefits p {
+    color:#434455;
+}
+
+
+/* 
+Main ->
 Section our-team 
 */
 
 .our-team {
-    background-color: #F4F4FD;
-    font-size: 36px;
-    line-height: 1.111;
-    font-weight: 700;
     text-align: center;
+    background-color: #F4F4FD;
+}
+.our-team h2{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.111;
 }
 .our-team li{
-    background-color: #fff;
-    border: 1px solid black;
-    width: 25%;
-    float:left;
-   
+    background-color: #fff;   
 }
 
 .our-team h3{
+    font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
 }
@@ -108,24 +131,30 @@ Section our-portfolio
 
 .our-portfolio{
     color:#434455;
+}
+
+.our-portfolio h2{
     font-size: 36px;
-    line-height: 1.111;
     font-weight: 700;
+    line-height: 1.111;
     text-align: center;
 }
 
 .our-portfolio h3{
+    font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
 
 }
-.our-portfolio li{
-    text-align: left;
+
+.our-portfolio p {
+    color:#434455;
 }
+
 
 /* Footer */
 
 footer{
-    background-color: #2E2F42;
     color: #F4F4FD;
+    background-color: #2E2F42;
 }
