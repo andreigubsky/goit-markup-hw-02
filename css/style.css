@@ -91,10 +91,11 @@ Section main-page
     cursor: pointer;
 }
 
-/*
-Global for all sections in h2
+/* 
+Main ->
+Section our-benefits
 */
-.section-header {
+.our-benefits .section-header {
     font-size: 36px;
     font-weight: 500;
     line-height: 1.11;
@@ -103,10 +104,6 @@ Global for all sections in h2
     text-transform: capitalize;
     color:#2E2F42;
 }
-/* 
-Main ->
-Section our-benefits
-*/
 
 .our-benefits .our-benefits-header {
     font-size: 20px;
