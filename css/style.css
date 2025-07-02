@@ -51,7 +51,7 @@ a {
 .top-menu-items a:hover, .top-menu-items a:focus {
     color: #404BBF;
 } 
-.menu-contacts .contacts-email {
+.menu-contacts .contacts-item {
     letter-spacing: 0.02em;
 }
 .menu-contacts a:hover, .menu-contacts a:focus {
@@ -129,6 +129,15 @@ Section our-team
     text-align: center;
     background-color: #F4F4FD;
 }
+.our-team .section-header {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color:#2E2F42;
+}
 
 .our-team li{
     background-color: #fff;   
@@ -188,7 +197,24 @@ Section our-portfolio
 
 /* Footer */
 
-footer{
+.page-footer{
     color: #F4F4FD;
     background-color: #2E2F42;
+}
+
+.page-footer .logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.page-footer .logo .logo-studio {
+    color:#f4f4fd
+}
+.page-footer .footer-paragraph {
+    letter-spacing: 0.02em;
 }
