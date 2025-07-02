@@ -57,6 +57,7 @@ a {
 address {
     font-style: normal;
 }
+
 /* 
 Main ->
 Section main-page 
@@ -68,15 +69,13 @@ Section main-page
     background-color: #2E2F42;
     
 }
-
-.main-page .main-page-header {
+.main-page h2 {
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #fff;
 }
-
 .main-page .main-button {
     line-height: 1.5;
     font-weight: 500;
@@ -84,35 +83,35 @@ Section main-page
     color: #fff;
     background-color: #4D5AE5;
 }
-
 .main-page .main-button:hover, .main-page .main-button:focus {
     background-color: #404BBF;
     cursor: pointer;
 }
 
-/* 
-Main ->
-Section our-benefits
+/*
+Global for all sections in h2
 */
-
-.our-benefits h2 {
+.section-header {
     font-size: 36px;
     font-weight: 500;
     line-height: 1.2;
     text-align: center;
 }
+/* 
+Main ->
+Section our-benefits
+*/
+
 .our-benefits .our-benefits-header {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
-
 .our-benefits .our-benefits-paragraph{
     color:#434455;
     letter-spacing: 0.02em;
 }
-
 
 /* 
 Main ->
@@ -123,19 +122,24 @@ Section our-team
     text-align: center;
     background-color: #F4F4FD;
 }
-.our-team h2{
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.111;
-}
+
 .our-team li{
     background-color: #fff;   
 }
 
-.our-team h3{
+.our-team .our-team-header{
     font-size: 20px;
     font-weight: 500;
-    line-height: 1.2;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
+    color:#2E2F42;
+}
+.our-team .our-team-paragraph{
+    color:#434455;
+    font-size: 16px;
+    letter-spacing: 0.02em;
 }
 
 /*
@@ -145,26 +149,22 @@ Section our-portfolio
 
 .our-portfolio{
     color:#434455;
-}
-
-.our-portfolio h2{
     font-size: 36px;
-    font-weight: 700;
-    line-height: 1.111;
-    text-align: center;
-}
+    line-height: 1.11;
 
-.our-portfolio h3{
+}
+.our-portfolio .our-porfolio-item-header{
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
+    color:#2E2F42;
 }
-
-.our-portfolio p {
+.our-portfolio .our-porfolio-item-paragraph {
     color:#434455;
+    letter-spacing: 0.02em;
 }
-
 
 /* Footer */
 
